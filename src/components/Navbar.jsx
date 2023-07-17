@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
 import Wrapper from "../assets/wrappers/Navbar";
-
 const Navbar = () => {
     return (
         <Wrapper>
@@ -15,7 +13,7 @@ const Navbar = () => {
                         About
                     </NavLink>
                     <NavLink to="/newsletter" className="nav-link">
-                        NewsLetter
+                        Newsletter
                     </NavLink>
                 </div>
             </div>
